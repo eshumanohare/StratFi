@@ -1,0 +1,23 @@
+StratFi - Strategic Finance
+
+Project Layout
+
+v1
+src/
+   /data_sources
+        /data_sources.rs - Fetches data from an oracle
+   /ma
+        /sma
+            /sma.rs - Simple Moving Average Strategy
+        /wma
+            /wma.rs - Weighted Moving Average Strategy
+        /ema
+            /ema.rs - Exponential Moving Average Strategy
+   /tick
+        /tick.rs - Defines Tick and TickField structure
+   /tests
+        /ma
+            /sma_test.rs - Simple Moving Average Tests
+            /wma_test.rs - Weighted Moving Average Tests
+            /ema_test.rs - Exponential Moving Average Tests
+
